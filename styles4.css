@@ -1,0 +1,1259 @@
+* {
+    margin: 0;
+    font-family: Quicksand;   
+    scroll-behavior: smooth;
+}
+
+
+.decorative00 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    opacity: 50%;
+    width: 80%;
+}
+
+.decorative00-1 {
+    float: right;
+    top: 0;
+}
+
+.decorative01 {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    right: 0;
+}
+
+#grad {
+    background-color: rgb(25, 17, 69); /* For browsers that do not support gradients */
+    background-image: linear-gradient(145deg, rgb(46, 3, 38), rgb(0, 1, 33), rgb(32, 1, 27));
+    z-index: -20;
+    width: 100%;
+    position: absolute;
+  }
+
+.nav {
+    text-align: right;
+    line-height: 90px;
+    position: relative;
+}
+
+.parent0 {
+    display: flex;
+    flex-direction: row;
+    height: 1px;
+}
+
+.divider1 {
+    background-color: rgb(0, 0, 0);
+    width: 18%;
+}
+
+.divider2 {
+    background-color: rgb(255, 255, 255);
+    width: 15%; 
+}
+
+.divider3 {
+    background-color: #000000;
+    width: 90%;
+}
+
+.länk {
+    color: white;
+    text-decoration: underline;
+}
+
+.menu2 {
+    margin-top: 35px;
+    float: right;
+    font-size: 15px;
+    margin-right: 7%;
+    font-weight: 500;
+}
+
+.menu2-1 {
+    width: 70%;
+    font-size: 15px;
+    margin-right: 7%;
+    font-weight: 500;
+    float: right;
+    padding-top: 35px;
+}
+
+.menu2 a {
+    clear: right;
+    text-decoration: none;
+    color: #f2f2f2;
+    margin: 0 23px;
+    line-height: 70px;
+}
+
+.menu2-1 a {
+    clear: right;
+    text-decoration: none;
+    color: #f2f2f2;
+    margin: 0 23px;
+    line-height: 70px;
+}
+
+.menu2 a:hover {
+    text-decoration: underline;
+}
+
+.menu2-1 a:hover {
+    text-decoration: underline;
+}
+
+label {
+    margin-right: 40px;
+    margin-top: 30px;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    color: #f2f2f2;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;    
+}
+
+.header1 {
+    height: 150px;
+}
+
+.header3 {
+    position: relative;
+    height: 0px;
+}
+
+.first-text {
+   text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 170px;
+}
+
+
+.parent00 {
+    height: 350px;
+}
+
+.tjänsterhtml {
+    height: 220px;
+}
+
+.tjänsterh1 {
+    color: #f2f2f2;
+    font-size: 22px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.illustruerat {
+    display: inline;
+    width: 1300px;
+}
+
+#container3 {
+    width: 1100px;
+    display: inline;
+}
+
+#logo {
+    height: 70px;
+    margin-top: 45px;
+    margin-left: 100px;
+}
+
+#logo-hover {
+    opacity: 0%;
+    top: 0;
+    display: flex;
+    position: absolute;
+    height: 90px;
+    margin-top: 27px;
+    margin-left: 103px;
+    transition: padding 1s;
+}
+
+#logo-hover:hover {
+    opacity: 100%;
+    padding-top: 25px;
+}
+
+.länkar {
+    color: #f2f2f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.länkar:hover {
+    text-decoration: underline;
+} 
+
+nav {
+    display: flex;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {   
+    font-size: 75px;
+}
+
+.digital {
+    font-family: Playfair Display;
+    color: #f2f2f2;
+    font-weight: 400;
+    margin-top: 140px;
+    padding-bottom: 30px;
+    text-align: center;
+    z-index: 10;
+}
+
+.button-anlita {
+    font-weight: 600;
+    text-align: center;
+    padding: 7px 22px;
+    color: #f2f2f2;
+    border-radius: 0px;
+    text-decoration: none;
+    font-size: 15px;
+    border-style: solid;
+    border-width: thin;
+    margin-right: 20px; 
+  }
+  
+.button-anlita:hover {
+    color: #a0a0a0;
+}
+
+.button-vem {
+    font-weight: 600;
+    text-align: center;
+    padding: 9px 22px;
+    margin-right: 20px;
+    color: #f2f2f2;
+    background-color: rgb(87, 111, 140);
+    border-radius: 0px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+.button-vem:hover {
+    background-color: rgb(87, 111, 140);
+}
+
+.text {
+    margin-top: 0px;
+}
+
+.child1 {
+    width: 50%;
+    margin-top: 140px;
+    margin-left: 15%;
+}
+
+.child2 {
+    width: 50%;
+    margin-right: 10%;
+}
+
+.grandchild {
+    width: 50%;
+    margin-top: 150px;
+
+}
+
+.parent1 {
+    text-align: center;
+    display: inline-flex;
+    
+    height: 500px;
+}
+
+.parent1-2 {
+    text-align: center;
+    display: inline-flex;
+    width: 100%;
+    height: 500px;
+}
+
+
+.illustration-girl {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    padding-top: 100px;
+}
+
+.decorative4 {
+    position: absolute;
+    z-index: -2;
+    right: 0;
+    top: 0;
+    padding-top: 5px;
+    opacity: 50%;
+}
+
+.back-blue {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    padding-top: 175px;
+}
+
+.text3 {
+    color: #393939;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.port {
+    font-size: 20px;
+}
+
+h2 {
+    font-family: Quicksand;
+    font-weight: bold;
+    color: #e1e1e1;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 25px;   
+}
+
+.intro {
+    color: #e1e1e1;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    width: 85%;
+}
+
+.contact_intro {
+    font-size: 15px;
+    padding-top: 5px; 
+    color: #f2f2f2; 
+    margin-bottom: 30px;
+}
+
+.tjänster_intro {
+    color: #f2f2f2;
+    line-height: 1,5;
+}
+
+.parent001 {
+    width: 100%;
+    display: inline-flex;
+   
+    justify-content: center;
+}
+
+.child001 {
+    
+    margin-right: 100px;
+}
+
+
+
+
+#about_me {
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    display: inline-flex;
+    color: white;
+}
+
+.about_me_title {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+#img_me2 {
+    height: 350px;
+    margin-right: 60px;
+}
+
+.header_aboutme {
+    height: 220px;
+}
+
+#FIRST_parent {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#intro_me {
+    margin-right: 100px;
+}
+
+.child002 {
+    margin-top: 70px;
+}
+
+.contact_title2 {
+    color: #f2f2f2;
+}
+
+.grandchild001 {
+    display: inline-flex;
+}
+
+.grandchild002 {
+    display: inline-flex;
+}
+
+.kontakthtml {
+    height: 200px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    z-index: -2;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 0px;
+  }
+  
+  .column img {
+    vertical-align: middle;
+    width: 100%;
+    filter: brightness(60%);
+  }
+
+  .column img:hover {
+    filter: brightness(100%);
+  } 
+  
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6 {
+    position: relative;
+    text-align: center;
+}
+
+.img_text {
+    position: absolute;
+    z-index: 100;
+    margin-left: auto;
+    margin-right: auto;
+    left: 42%;
+    top: 50%;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    
+}
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+.header_contact {
+    height: 200px; 
+}
+
+.header_tjanster {
+    height: 220px;
+}
+
+hr {
+    margin-top: 130px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 50%;
+}
+
+.hr2 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.text5 {
+    color: #f2f2f2;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#cont1 {
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.vänster3 {
+    margin-left: auto;
+    margin-right: 1%;
+    width: 15%;
+    display: block;
+    height: 160px;
+}
+
+.mail-text {
+    color: #f2f2f2;  
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.höger3 {
+    width: 15%;
+    margin-right: auto;
+    margin-left: 1%;
+    border-radius: 10px;
+    height: 160px;
+}
+
+h4 {
+    color: #f2f2f2;
+    font-size: 18px;
+    padding: 10px 5px 5px 5px;
+}
+
+.phone-photo {
+    height: 40px;
+    z-index: 10;
+}
+
+.mail-photo {
+    height: 40px;
+    z-index: 10;
+}
+
+.phone-text {
+    color: #f2f2f2;    
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    z-index: 10;
+    line-height: 2;
+}
+
+#kontakta-form {
+    text-align: center;
+}
+
+#fname, 
+#email {
+    width: 450px;
+    padding: 6px;
+    background-color: #e4e4e4;
+    border: none;
+    border-radius: 3px;
+}
+
+#message {
+    width: 450px;
+    padding: 6px;
+    height: 200px;
+    background-color: #e4e4e4;
+    border: none;
+    border-radius: 3px;
+    resize: vertical;
+}
+
+.fyll-i {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+#skicka {
+    border-radius: 3px;
+    border-color: #f2f2f2;
+    border-style: thin;
+    background: none;
+    color: #f2f2f2;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+#skicka:hover {
+    color: #a0a0a0;
+}
+
+.contacts {
+    color: #f2f2f2;
+    margin-left: 10%;
+    padding-top: 60px;
+}
+
+.contacts1 {
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+
+.contact_title {
+    margin-top: 30px;
+    font-size: 23px;
+    color: #f2f2f2;
+}
+
+.info {
+    display: inline-block;
+    width: 232px;
+    font-weight: 400;
+    text-align: center; 
+    padding-left: 0px;
+    padding-top: 5px;
+    color: #f2f2f2;
+}
+
+#tjänster2 {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8%;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+#tjänster3 {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 8%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.rita-tjänster {
+    padding-left: 0;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    width: 130px;
+}
+
+.rita {
+    width: 130px;
+    padding-left: 0;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.erbjuda {
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.third,
+.first,
+.second,
+.fyra,
+.fem,
+.sex {
+    position: relative;
+    display: inline-block;
+    width: 423px;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+
+.third2,
+.first2,
+.second2,
+.fyra2,
+.fem2,
+.sex2 {
+    position: relative;
+    display: inline-block;
+    width: 423px;
+    text-align: center;
+    color: #f2f2f2;
+    padding-bottom: 20px;
+}
+
+
+.button { 
+    color: #f2f2f2;
+    font-weight: 500;
+    text-align: center;
+    padding: 8px 15px;
+    border-color: #f2f2f2;
+    border-style: solid;
+    text-decoration: none;
+    font-size: 14px;
+    border-width: thin;
+   
+  }
+
+.button:hover {
+    color: #a0a0a0;
+}
+
+.merom {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contact_footer {
+    padding-top: 185px;
+}
+
+.left {
+   position: absolute;
+   bottom: 0;
+   margin-bottom: 62px;
+   margin-left: 90px;
+   color: grey;
+   font-size: 11px;
+}
+
+#right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 50px;
+    margin-right: 95px;
+}
+
+footer {
+    color: grey;
+    padding-left: 90px;
+    display: flex;
+    border-top: thin;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    font-size: 11px;
+}
+
+.vänster {
+    display: flex;
+    flex: 1;
+    color: grey;
+}
+
+.vänster-1 {
+    display: flex;
+    flex: 1;
+}
+
+#linkedin {
+    padding-right: 95px;
+}
+ 
+#linkedin:hover {
+    opacity: 50%;
+}
+
+@media only screen and (max-width: 1520px) {
+.third2, 
+.first2, 
+.second2, 
+.fyra2, 
+.fem2, 
+.sex2 {
+    width: 33%;
+}
+
+.third, 
+.first, 
+.second, 
+.fyra, 
+.fem, 
+.sex {
+    width: 33%;
+}
+@media only screen and (max-width: 1000px) {
+
+    .rita-tjänster {
+        padding-left: 0;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        width: 108px;
+    }
+
+    .child001 {
+        margin-left: 15%;
+    }
+
+    #img_me2 {
+        margin-right: 0px;
+    }
+
+    .column img {
+        vertical-align: middle;
+        width: 100%;
+        filter: brightness(100%);
+      }
+
+    .header_aboutme {
+        height: 150px;
+    }
+
+    #intro_me {
+        margin-right: 0;
+        width: 100%;
+        padding-bottom: 70px;
+    
+    }
+
+    #about_me {
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 100px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    #logo {
+        height: 65px;
+        margin-top: 45px;
+        margin-left: 50px;
+    }
+
+    #logo-hover {
+        height: 85px;
+        margin-top: 30px;
+        margin-left: 52px;
+    }
+
+    #logo-hover:hover {
+        height: 85px;
+        padding-top: 20px;
+        margin-left: 52px;
+    }
+
+    #tjänster2 {
+        padding-bottom: 50px;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 50px;
+        text-align: center;
+    }
+    
+    .rita {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .erbjuda {
+        color: #f2f2f2;
+        font-size: 17px;
+        font-weight: bolder;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    .first,
+    .second,
+    .third,
+    .fyra,
+    .fem,
+    .sex { 
+        width: 45%;
+        
+    }
+
+      .third2,
+    .first2,
+    .second2,
+    .fyra2,
+    .fem2,
+    .sex2 {
+        width: 49%;
+}
+
+.vänster3 {
+    margin-right: 5%;
+    width: 20%;
+}
+
+.höger3 {
+    width: 20%;
+    margin-left: 5%;
+}
+
+.parent001 {
+    display: block;
+}
+
+.label-contact {
+    margin-top: 0px;
+}
+
+.child002 {
+    margin: 91px 99px 54px 15%;
+}
+
+.decorative4 {
+    padding-top: 223px;
+}
+
+ @media only screen and (max-width: 700px) {
+
+    .digital {
+        font-size: 60px;
+    }
+
+    .vänster3 {
+        margin-right: 5%;
+        padding-bottom: 10px;
+        width: 30%;
+    }
+
+    #logo {
+        margin-top: 53px;
+        height: 50px;
+    }
+
+    #logo-hover {
+      height: 65px;
+
+    }
+
+    #logo-hover:hover {
+        height: 63px;
+        margin-top: 42px;
+        margin-left: 52px;
+      }
+
+    .text2 {
+        width: 80%;
+        margin-left: 3%;
+    }
+
+    .info {
+        width: 211px;
+    }
+
+    .intro3 {
+        font-size: 14px;
+    }
+
+    .rita {
+        width: 100px;
+        padding-left: 0;
+    }
+
+    .erbjuda {
+            font-size: 16px;
+        }
+    
+
+
+label {
+    display: block;
+    cursor: pointer;
+    margin-top: 45px;
+    margin-right: 50px;
+
+}
+
+.menu2 {
+    text-align: center;
+    width: 100%;
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+}
+
+.menu2-1 {
+    text-align: center;
+    width: 100%;
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+}
+
+.menu2 a {
+    display: block;
+    border-bottom: 1px solid #343434;
+}
+
+.menu2-1 a {
+    display: block;
+    border-bottom: 1px solid #343434;
+}
+
+a {
+    height: 60px;
+}
+
+#toggle:checked + .menu2 {
+    display: block;          
+} 
+
+.erbjuda-tjänster2 {
+    font-size: 17px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.länkar-footer {
+    font-size: 12px;
+    margin: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #img_me2 {
+        height: 250px;
+    }
+
+    .tjänsterh1 {
+        font-size: 18px;
+    }
+
+    .tjänster_intro {
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text3 {
+        margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    hr {
+        margin-top: 70px;
+    }
+
+    .digital {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+
+    .text2 {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .third,
+    .first,
+    .second,
+    .fyra,
+    .fem,
+    .sex {
+        font-size: 12px;
+    }
+
+    #tjänster2 {
+        margin: 10px;
+    }
+
+    .info {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 0;
+        padding-left: 1%;
+        padding-top: 5px; 
+        font-size: 15px;
+    }
+    
+    .third2,
+    .first2,
+    .second2,
+    .fyra2,
+    .fem2,
+    .sex2 {
+        width: 300px;
+        font-size: 13px;
+}
+
+    .tjänsterhtml {
+        height: 220px;
+    }
+
+    #cont1 {
+        padding-bottom: 0px;
+    }
+
+    .email-photo {
+        height: 50px;
+    }
+
+    .höger3 {
+        width: 30%;
+        margin-left: 5%;
+        height: 160px;
+    }
+    
+    h1 {   
+        font-size: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .contact_title {
+        margin-left: 0px;
+    }    
+
+    .contact_h4 {
+        padding-top: 15px;
+    }
+
+    .erbjuda-tjänster2 {
+        font-size: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .rita {
+        width: 98px;
+        padding-left: 0;
+    }
+
+    .rita-tjänster {
+        width: 100px;
+        padding-left: 0;
+        padding-top: 60px;
+    }
+
+    .intro3 {
+        font-size: 13px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .left {
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+
+    #right {
+        margin-bottom: 30px;
+        margin-right: 40px;
+    }
+
+    .button { 
+        padding: 7px 14px;
+        font-size: 12px;
+      }
+
+    .label-contact {
+        display: none;
+    }
+
+    #message,
+    #email,
+    #fname {
+        width: 100%;
+    }
+
+    .fyll-i {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .frilansande {
+        font-size: 18px;  
+    }
+
+    .button-anlita {
+        padding: 8px 20px;
+        margin-left: 20px;
+      }
+
+    .intro {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        padding-bottom: 7px;
+        font-size: 20px;
+    }
+    
+
+    footer {
+        color: grey;
+        padding-left: 50px;
+        padding-right: 40px;
+        display: flex;
+        border-top: thin;
+        padding-top: 150px;
+        padding-bottom: 20px;
+        font-size: 11px;
+    }
+    
+    .vänster {
+        display: block; 
+    }
+
+    .vänster-1 {
+        display: block; 
+    }
+
+    .child001 {
+        width: 65%;
+    }
+
+    ul {
+        padding-left: 0px;
+        width: 70px;
+    }
+
+    .copyright {
+        padding-bottom: 20px;
+    }
+
+    #linkedin {
+        padding-right: 0px;
+    }
+    
+
+    .child002 {
+        width: 40%;
+    }
+
+    .contact_footer {
+        padding-top: 160px;
+    }
